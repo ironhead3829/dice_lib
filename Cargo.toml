@@ -1,5 +1,6 @@
 [workspace]
 members = [
-    "dice_core"
+    "dice_core",
+    "dice_ffi"
 ]
 resolver = "2"
