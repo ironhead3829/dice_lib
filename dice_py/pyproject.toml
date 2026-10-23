@@ -1,0 +1,13 @@
+[project]
+name = "dice-py"
+dynamic = ["version"]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["maturin>=1.9,<2"]
+build-backend = "maturin"
+
+[tool.maturin]
+manifest-path = "Cargo.toml"
+bindings = "pyo3"
+module-name = "dice_py"
