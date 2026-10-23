@@ -2,5 +2,5 @@
 members = [
     "dice_core",
     "dice_ffi"
-]
+, "dice_py"]
 resolver = "2"
